@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>My Web Pages</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">QUAM (FAQ)</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="made.html">Made Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="text-center mb-5">
+                        <h1 class="fw-bolder">Frequently Asked Command Questions</h1>
+                        <p class="lead fw-normal text-muted mb-0">How can Minecraft Commands / Datapack help you?</p>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-xl-8">
+                            <!-- FAQ Accordion 1-->
+                            <h2 class="fw-bolder mb-3">Function & Command_block</h2>
+                            <div class="accordion mb-5" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Function #1 (korean)</button></h3>
+                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Description</strong>
+                                            실행 파일에 미리 작성된 명령을 실행합니다. 일반적으로 <code>Command_block</code>보다 성능이 좋고 청크를 소비하지 않습니다. 또한 글자 수의 제한이 없으며 <code>주석</code>(<code>#</code>)을 추가하여 명령마다 가독성을 향상시킬 수 있습니다. 실행 파일은 <code>.mcfunction</code> 형식이며 <code>메모장</code> 또는 <code>Visual Studio Code</code>와 같은 텍스트 편집기로 작성할 수 있습니다.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Command_block #2 (korean)</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Description.</strong>
+                                            일반적으로 <code>Function</code>으로 이동하기 전에 많은 커맨더가 사용합니다. 하지만 <code>Command_block</code>만이 가지는 장점이 있습니다. 예를 들어, 여러 대수학을 적용하여 복잡한 문제를 해결하는 <code>한 줄 명령</code>과 <code>1.19.4</code> 업데이트로 가능해진 <code>문자열 수정</code> 명령이 있습니다. 특히 <code>문자열 수정</code>은 원래 해결할 수 없었던 일을 가능하게 합니다. (+ 참고로 <code>Command_block</code>의 출력에는 <code>현재 시간</code>이 표시됩니다.)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ Accordion 2-->
+                            <h2 class="fw-bolder mb-3">Command Optimization</h2>
+                            <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">Optimization ways</button></h3>
+                                    <div class="accordion-collapse collapse show" id="collapseOne2" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>Description.</strong>
+                                            여기서는 여러가지 최적화 방법들, 크게 <code>대상 선택 인자</code>, <code>execute</code> 에 한해서 그 작성 팁들까지 소개합니다.
+                                            <p>
+                                                <br>참고 문헌 또는 자료.</p>
+                                            <a href="//www.reddit.com/r/MinecraftCommands/comments/w4vjs3/whenever_i_create_datapacks_i_sometimes_do/" target="_blank">Performance test [Reddit]</a>
+                                            <p><a href="//www.youtube.com/watch?v=ri27yXfkkTk" target="_blank">Command Efficiency Tier List [Youtube]</a></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingFour"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">대상 선택 인자 #1 (korean)</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseTwo2" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>모든 커맨드의 시작점</strong>
+                                            마인크래프트에서 <code>대상</code>을 지정하는 데 사용합니다. <code>대상 선택</code>의 종류는 총 5가지이며 다음과 같습니다.
+                                            <p><code>@e <<< @a <<<< @r < @p <<<<<<<<<< @s</code> 부등호는 성능의 지표를 간단하게 나타냅니다. 이에 따라 함수내에서 <code>@s</code>를 많이 사용해야 한다는 것을 알았습니다.</p>
+                                            <br><strong>다음은</strong> 인자 내부의 자주 쓰는 6가지 세부 명령을 나열한 내용입니다.
+                                            <p><code>nbt <<< predicate < advancements <<<<<< team << tag = scores</code>
+                                            <p>이 모든 측정은 <code>@s[]</code>를 기준으로 하며 측정 대상은 <code>player와 marker</code>입니다. 또한 <code>tag</code>는 한 단어든 매우 긴 단어든 성능의 차이가 미미하게 나타났고 <code>NBT</code>까지 감지하는 <code>predicate</code>는 세부 명령 <code>nbt</code>를 감지했을 때 보다 성능이 더 낮은 결과가 나왔습니다.</p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingFive"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">execute 작성 팁 #2 (korean)</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseThree2" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>"execute가 있었기에 우리가 존재했다..."</strong>
+                                            <br>마인크래프트에서 명령어 하면 빠질 수 없는 존재입니다. 명령어의 <code>실행 주체</code>, <code>위치</code>, <code>시점</code>, <code>차원</code>을 설정하고 명령어가 실행될 <code>조건</code>과 명령어의 <code>결과값</code>을 저장하는 등 여러 기능을 수행할 수 있습니다.
+                                            <p><br>하지만 단점도 존재합니다. 여러 기능을 수행할 수 있지만 <code>비용</code>(<code>코스트</code> 즉, 명령을 수행하였을 때 잡아먹는 성능)이 비싸 최적화가 꼭 필요한 명령이기 떄문입니다. 그렇다면 어떻게 최적화를 해야 할까요?</p>
+                                            <br>1. 하나의 실행파일에 <code>execute as</code>를 중복 사용하지 말아라.
+                                            <p>: 대부분의 커맨더들이 하고 있는 실수 중에 하나입니다. 파일 하나에 <code>execute as ...</code>가 많아질수록 성능이 떨어지게 됩니다.
+                                                이를 어느정도 막기 위해서는 <code>실행 대상의 이름</code>을 <code>파일명</code>으로 정하고(ex: <code>player.mcfunction</code>) 그 하위 명령에 <code>@s</code>인자를 사용하는 것입니다.
+                                                이렇게 한다면 <code>성능</code>도 상승할 뿐 아니라 <code>가독성</code>도 좋아질 것입니다.
+                                            </p>
+                                            <br>2. 최대한 명령을 압축하여라.
+                                            <p>: <code><cite><q>만약 실행 대상의 test 점수가 1점이라면 test1의 점수를 1점으로 설정해</q></cite></code> 라는 명령을 실행한다고 해 봅시다. 아마도 이러한 명령은 다음과 같을 것입니다.
+                                                <p><code><cite><q>execute if score @s test matches 1 run scoreboard players set @s test1 1</q></cite></code></p>
+                                                <p>하지만 우리는 이제 해당 명령을 압축할 수 있습니다.
+                                                    바로 <p><code><cite><q>scoreboard players set @s[scores={test=1}] test1 1</q></cite></code> 이렇게요.</p> 이것은 성능이 크게 바뀐다는 의미는 아니지만, 이전 명령보다는 조금이나마 효율적일 것입니다.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="card border-0 bg-light mt-xl-5">
+                                <div class="card-body p-4 py-lg-5">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div class="text-center">
+                                            <div class="h6 fw-bolder">Have more questions?</div>
+                                            <p class="text-muted mb-4">
+                                                Contact us at
+                                                <br />
+                                                <a href="#!">none</a>
+                                            </p>
+                                            <div class="h6 fw-bolder">Follow us</div>
+                                            <a class="fs-5 px-2 link-dark" target="_blank" href="https://github.com/QUAM-12"><i class="bi-github"></i></a>
+                                            <a class="fs-5 px-2 link-dark" target="_blank" href="https://www.youtube.com/channel/UCtAqG6OE5IbcuQHTtI48IWg"><i class="bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your QUAM Website
+                        <div id="current_date"></p>
+                            <script>
+                            date = new Date();
+                            year = date.getFullYear();
+                            month = date.getMonth() + 1;
+                            day = date.getDate();
+                            document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+                        </script>
+                        </div></div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">All</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Time</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Legends</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
